@@ -4,13 +4,13 @@ import (
 	"encoding/xml"
 	"sync/atomic"
 
+	"github.com/gin-gonic/gin"
+
 	cfg "github.com/slotopol/server/config"
 	"github.com/slotopol/server/game"
 	"github.com/slotopol/server/game/keno"
 	"github.com/slotopol/server/game/slot"
 	"github.com/slotopol/server/util"
-
-	"github.com/gin-gonic/gin"
 )
 
 var (
